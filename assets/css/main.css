@@ -2562,6 +2562,7 @@ input, select, textarea {
 			width: 100%;
 			height: 0.75em;
 			background-color: #37c0fb;
+			background-image: url("images/bg01.png");
 		}
 
 		#nav > ul {
@@ -2608,6 +2609,7 @@ input, select, textarea {
 						left: 50%;
 						margin-left: -0.375em;
 						background-color: #37c0fb;
+						background-image: url("images/bg01.png");
 					}
 
 					#nav > ul > li.current a {
@@ -2629,10 +2631,6 @@ input, select, textarea {
 /* Dropotron */
 
 	.dropotron {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
 		background-color: #333;
 		border-radius: 5px;
 		color: #fff;
@@ -2731,10 +2729,6 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background-color: #37c0fb;
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			color: #fff;
 		}
 
@@ -3056,10 +3050,6 @@ input, select, textarea {
 				width: 100%;
 				z-index: 10001;
 				background-color: #333;
-				background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-				background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-				background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				height: 44px;
 				line-height: 44px;
 				box-shadow: 0 4px 0 0 #37c0fb;
@@ -3121,10 +3111,6 @@ input, select, textarea {
 			#navPanel {
 				background-color: #1f1f1f;
 				box-shadow: inset -1px 0 3px 0 rgba(0, 0, 0, 0.5);
-				background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: -ms-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
