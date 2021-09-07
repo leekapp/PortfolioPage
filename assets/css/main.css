@@ -2666,7 +2666,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		/*background-image: url("../../images/banner.jpg");*/
+		/*background-image: url("images/banner.jpg"); ADD THIS IMAGE AND THEN READJUST THE BANNER HEIGHT IN RULES BELOW*/
 		background-position: center center;
 		background-size: cover;
 		height: 10px;
@@ -2813,7 +2813,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 24em;
+				height: 10em; /* controls height of banner on wide screen format*/
 			}
 
 	}
@@ -2858,7 +2858,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 20em;
+				height: 5em; /* controls height of banner on normal screen format*/
 			}
 
 		/* Wrapper */
@@ -2970,7 +2970,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 20em;
+				height: 5em;
 			}
 
 				#banner header h2 {
@@ -3255,7 +3255,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 18em;
+				height: 5em; /* controls height of banner on mobile screen format*/
 			}
 
 		/* Wrapper */
@@ -3311,7 +3311,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 20em;
+				height: 5em; /* controls height of banner on mobile screen format*/
 			}
 
 				#banner header {
