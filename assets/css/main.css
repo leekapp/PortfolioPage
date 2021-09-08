@@ -3255,7 +3255,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 5em; /* controls height of banner on mobile screen format*/
+				height: 10em; /* controls height of banner on mobile screen format*/
 			}
 
 		/* Wrapper */
@@ -3311,7 +3311,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 5em; /* controls height of banner on mobile screen format*/
+				height: 10em; /* controls height of banner on mobile screen format*/
 			}
 
 				#banner header {
