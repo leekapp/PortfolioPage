@@ -1,0 +1,5 @@
+/* Lee Kapp - CS148 Assignment 1 - tablet.css */
+@import url("fontawesome-all.min.css");
+nav a{
+    padding: 0.2%;
+}
