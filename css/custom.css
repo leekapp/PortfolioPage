@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     line-height: 1.75em;
     /*margin-bottom: 1em;*/
-    margin: 1em;
+    margin: 0.5em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -81,42 +81,24 @@ h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
     font-weight: 300;
 }
 
+h1 {
+    font-size: 2.5em;
+    letter-spacing: -0.025em;
+}
+
 h2 {
-    font-size: 1.75em;
+    font-size: 1.5em;
     letter-spacing: -0.025em;
 }
 
 h3 {
     font-size: 1.2em;
     letter-spacing: -0.025em;
+    margin-left: 1em;
 }
 
 ul {
     list-style-type: none; /* Remove bullets */
-}
-
-sub {
-    font-size: 0.8em;
-    position: relative;
-    top: 0.5em;
-}
-
-sup {
-    font-size: 0.8em;
-    position: relative;
-    top: -0.5em;
-}
-
-hr {
-    border-top: solid 1px #e0e0e0;
-    border: 0;
-    margin-bottom: 1.5em;
-}
-
-blockquote {
-    border-left: solid 0.5em #e0e0e0;
-    font-style: italic;
-    padding: 1em 0 1em 2em;
 }
 
 
@@ -171,6 +153,7 @@ figure {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0em;
     text-align:center;
 }
 
@@ -179,10 +162,21 @@ figcaption {
     display:block;
     max-width: 90%;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3.boast {
+    text-align: center;
+}
+
+h4.boast {
+    text-align: center;
 }
 
 .introFig {
     float: left;
+    margin-top: 0;
 }
 
 footer {
