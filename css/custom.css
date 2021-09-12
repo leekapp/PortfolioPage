@@ -259,7 +259,7 @@ nav {
     border: solid slateblue;
     padding:.4rem;
     margin-top:.5em;
-    margin-left:auto;
+    margin-left:1em;
     margin-right:auto;
     max-width:100%
 }
@@ -267,9 +267,11 @@ nav {
 #cv tr:nth-child(odd) {
     background-color: whitesmoke;
     border-collapse: collapse;
+    margin-left: 1em;
 }
 #cv tr:nth-child(even) {
     background-color: lightgray;
+    margin-left: 1em;
 }
 
 #cv tr:nth-child(odd):hover {
@@ -278,4 +280,17 @@ nav {
 
 #cv tr:nth-child(even):hover {
     background-color:lightsteelblue;
+}
+
+#cv h4 {
+    margin-left: 0em;
+}
+
+#cv tr {
+    text-indent: 1em;
+    margin-right: 0.5em;
+}
+
+#vitae p {
+    margin-left: 1.5em;
 }
