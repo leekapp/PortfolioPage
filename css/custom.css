@@ -255,6 +255,12 @@ nav {
 }
 
 /* CV page */
+
+#vitae p {
+    margin-bottom: 0.25em;
+    margin-left: 1em;
+}
+
 #cv {
     border: solid slateblue;
     padding:.4rem;
@@ -291,5 +297,15 @@ nav {
 }
 
 #cv th {
+    text-align: center;
     border: 2px solid black;
 }
+
+.education ul, .res-experience ul, .employment ul, .funding ul, .honors ul, .publications ul {
+    padding-left: 0em;
+}
+
+.education li, .res-experience li, .employment li, .funding li, .honors li, .publications li {
+    margin-bottom: 1em;
+}
+
