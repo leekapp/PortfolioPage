@@ -286,11 +286,10 @@ nav {
     margin-left: 0em;
 }
 
-#cv tr {
-    text-indent: 1em;
-    margin-right: 0.5em;
+#cv td {
+    padding: 0em 1em 0em;
 }
 
-#vitae p {
-    margin-left: 1.5em;
+#cv th {
+    border: 2px solid black;
 }
