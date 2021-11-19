@@ -51,6 +51,11 @@ a:hover {
     border-bottom-color: transparent;
 }
 
+a:visited {
+    color: #37c0fb;
+    border-bottom-color: transparent;
+}
+
 strong, b {
     font-weight: 600;
 }
