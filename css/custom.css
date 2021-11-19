@@ -122,11 +122,12 @@ nav a {
     display: inline-block;
     position: center;
     padding: 0 1em;
-}
-
-nav a:link {
     color: darkorange;
 }
+
+/*nav a:link {*/
+/*    color: darkorange;*/
+/*}*/
 
 
 nav a:hover, dropdown:hover, .dropbtn {
