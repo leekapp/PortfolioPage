@@ -133,9 +133,9 @@ nav a:hover, dropdown:hover, .dropbtn {
     background-color: lightsteelblue;
 }
 
-a:link {
-    color: dodgerblue;
-}
+/*a:link {*/
+/*    color: dodgerblue;*/
+/*}*/
 
 img {
     max-width:100%;
